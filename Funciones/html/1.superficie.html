@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="estilos.css">
+    <title>Funciones</title>
+</head>
+<body>
+    <section>
+        <h1>Triangulo</h1>
+        <input type="number" id="base" placeholder="Base del triángulo">
+        <input type="number" id="altura" placeholder="Altura del triángulo">
+        <button class="azul" onclick="calcularSuperficieTriangulo()">Calcular Superficie</button>
+        <p id="resultadoTriangulo"></p>
+    </section>
+
+    <section>
+        <h2>Datos Personales</h2>
+        <input type="text" id="nombre" placeholder="Nombre">
+        <input type="number" id="edad" placeholder="Edad">
+        <input type="text" id="direccion" placeholder="Dirección">
+        <input type="text" id="telefono" placeholder="Teléfono">
+        <input type="email" id="email" placeholder="Email">
+        <button onclick="solicitarDatosPersonales()">Mostrar Datos</button>
+        <div id="datosPersonales"></div>
+    </section>
+
+    <section>
+        <h3>Nomina</h3>
+            <div id="trabajadores">
+            <input type="number" id="trabajador1" placeholder="Sueldo del trabajador 1">
+            <input type="number" id="trabajador2" placeholder="Sueldo del trabajador 2">
+            <input type="number" id="trabajador3" placeholder="Sueldo del trabajador 3">
+            <input type="number" id="trabajador4" placeholder="Sueldo del trabajador 4">
+            <input type="number" id="trabajador5" placeholder="Sueldo del trabajador 5">
+             </div>
+            <button onclick="calcularNomina()">Calcular Nómina</button>
+            <p id="totalNomina"></p>
+    </section>
+    
+    <section>
+        <h4>Promedio de Calificaciones</h4>
+        <input type="number" id="materia1" placeholder="Materia 1">
+        <input type="number" id="materia2" placeholder="Materia 2">
+        <input type="number" id="materia3" placeholder="Materia 3">
+        <button onclick="calcularPromedio()">Calcular Promedio</button>
+        <p id="resultadoPromedio"></p>
+    </section>
+    
+<script src="funciones1.js"></script>
+
+</body>
+</html>

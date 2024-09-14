@@ -1,0 +1,81 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f0f8ff;
+    color: #333;
+    text-align: center;
+    margin-top: 50px;
+}
+
+input {
+    padding: 10px;
+    margin: 10px;
+    font-size: 16px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    width: 200px;
+}
+
+button {
+    padding: 10px 20px;
+    background-color: #007bff;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #0056b3;
+}
+
+#resultadoTriangulo {
+    font-size: 20px;
+    font-weight: bold;
+    margin-top: 20px;
+}
+
+#datosPersonales {
+    font-size: 20px;
+    font-weight: bold;
+    margin-top: 20px;
+}
+
+#totalNomina {
+    font-size: 20px;
+    font-weight: bold;
+    margin-top: 20px;
+}
+
+#resultadoPromedio {
+    font-size: 20px;
+    font-weight: bold;
+    margin-top: 20px;
+}
+h1{
+    font-size: 30px;
+    font-weight: bold;
+    margin-top: 20px;
+    background-color: rgb(0, 121, 71);
+    color: #ffffff;
+}
+h2{
+    font-size: 30px;
+    font-weight: bold;
+    margin-top: 20px;
+    background-color: rgb(0, 121, 71);
+    color: #ffffff;
+}
+h3{
+    font-size: 30px;
+    font-weight: bold;
+    margin-top: 20px;
+    background-color: rgb(0, 121, 71);
+    color: #ffffff;
+}
+h4{
+    font-size: 30px;
+    font-weight: bold;
+    margin-top: 20px;
+    background-color: rgb(0, 121, 71);
+    color: #ffffff;
+}
